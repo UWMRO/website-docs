@@ -54,4 +54,4 @@ TL;DR when a change to the repository is detected, a GitHub workflow runs that i
 
 When you make and push a change, you can check the [Actions](https://github.com/UWMRO/website-docs/actions) page to see your change beeing processed. Sphinx is quite resilient to problems in the code, but if the action fails, something has gone wrong and the static site may be broken. Be sure to fix that if it happens. You can also check the badge at the top of this page to see if the action is working properly.
 
-After the action runs (which should take 30 seconds), a [deployment](https://github.com/UWMRO/website-docs/actions) actually updates the GitHub Pages for the documentation. Then you can go [here](https://uwmro.github.io/website-docs/index.html) to confirm the changes look fine.
+After the action runs (which should take 30 seconds), a [deployment](https://github.com/UWMRO/website-docs/actions) actually updates the GitHub Pages for the documentation (you'll see the deployment changes to `Queued` and then completes, which should take another 30 seconds). Then you can go [here](https://uwmro.github.io/website-docs/index.html) to confirm the changes look fine.
