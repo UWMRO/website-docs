@@ -5,7 +5,7 @@ description = "Documentation to be published in the MRP public website"
 authors = ["José Sánchez-Gallego <gallegoj@uw.edu>"]
 license = "BSD 3-Clause"
 readme = "README.md"
-packages = [{include = "website_documentation"}]
+packages = [ { include = "src/website_documentation" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
