@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "website-documentation"
+name = "website-docs"
 version = "0.1.0"
 description = "Documentation to be published in the MRP public website"
 authors = ["José Sánchez-Gallego <gallegoj@uw.edu>"]
 license = "BSD 3-Clause"
 readme = "README.md"
-packages = [ { include = "src/website_documentation" }]
+packages = [ { include = "src/website_docs" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
