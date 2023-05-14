@@ -10,7 +10,7 @@
 
 * Prime the foot pump. Open the sink cabinet, place the tubing into the blue jug.
 
-* Prepare the camera. Navigate to this IP address. Connect to the camera, set the camera temperature to -82 degrees, and press Cool. It should take approximately ten minutes for the camera to indicate this temperature, but possibly half an hour till it's stable.
+* Prepare the camera. Navigate to this IP address. Connect to the camera, set the camera temperature to -82 degrees, and press Cool. It should take approximately ten minutes for the camera to indicate this temperature, but possibly half an hour until it's stable.
 
 * Setup the Filter Wheel. In Evora, connect to the filter wheel, and then press Home. Ensure your directory follows Home > name of your first filter. If the filter status in the bottom right corner says "FAILED", press the Home button again.
 
