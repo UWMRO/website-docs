@@ -1,6 +1,6 @@
 
-Manastash Ridge Observatory Documentation
-=========================================
+Manastash Ridge Observatory
+===========================
 
 
 Documentation
