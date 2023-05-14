@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "website-documentation"
+version = "0.1.0"
+description = "Documentation to be published in the MRP public website"
+authors = ["José Sánchez-Gallego <gallegoj@uw.edu>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+packages = [{include = "website_documentation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx = ">=6.0.0"
+black = {version = ">=21.10b0", allow-prereleases = true}
+rstcheck = ">=3.3.1"
+sphinx-jsonschema = ">=1.16.8"
+myst-parser = ">=0.14.0"
+furo = ">=2021.6.18-beta.36"
+nox = ">=2021.6.12"
+sphinx-autobuild = ">=2021.3.14"
+sphinx-copybutton = ">=0.3.3"
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+fast = true
+
+[tool.isort]
+profile = "black"
+sections = ["FUTURE", "STDLIB", "TYPING", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+default_section = "THIRDPARTY"
+known_typing = ["typing"]
+lines_after_imports = 2
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
