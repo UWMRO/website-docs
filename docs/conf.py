@@ -133,7 +133,10 @@ html_title = "Manastash Ridge Observatory"
 html_favicon = "./_static/favicon.ico"
 html_theme_options = {
     "light_logo": "mro_logo.png",
-    "dark_logo": "mro_logo_dark.png"
+    "dark_logo": "mro_logo_dark.png",
+    "source_repository": "https://github.com/uwmro/website-docs/",
+    "source_branch": "main",
+    "source_directory": "docs/",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
