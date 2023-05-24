@@ -3,13 +3,22 @@ Manastash Ridge Observatory
 ===========================
 
 
+Checklists
+----------
+
+.. toctree::
+  :maxdepth: 2
+
+  checklists/opening
+
+
 Documentation
 -------------
 
 .. toctree::
   :maxdepth: 2
 
-  opening
+  computing/index
 
 
 Other pages
