@@ -19,6 +19,7 @@ Documentation
   :maxdepth: 2
 
   computing/index
+  test
 
 
 Other pages
